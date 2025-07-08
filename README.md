@@ -1,6 +1,6 @@
-# marp-speee-theme [![exampleの出力結果画像が最新かどうかのテスト](https://github.com/speee/marp-speee-theme/actions/workflows/test.yml/badge.svg)](https://github.com/speee/marp-speee-theme/actions/workflows/test.yml)
+# marp-blue-theme [![exampleの出力結果画像が最新かどうかのテスト](https://github.com/speee/marp-speee-theme/actions/workflows/test.yml/badge.svg)](https://github.com/speee/marp-speee-theme/actions/workflows/test.yml)
 
-Speee 用の marp テーマ
+marp テーマ
 
 # 使用例
 
@@ -9,11 +9,6 @@ Speee 用の marp テーマ
 ![](./example/example.003.png) | ![](./example/example.004.png)
 
 # 使い方
-
-## 利用上の注意
-
-Speee 社員以外または株式会社 Speee の企業活動ではない目的でこのテーマを利用する場合は描画結果に株式会社 Speee の企業ロゴが表示されないよう画像ファイルを削除してください。
-詳細は[ライセンスについて](#ライセンスについて)を参照
 
 ## VS Codeの場合
 
@@ -57,13 +52,7 @@ marp example.md -o example.pptx --theme-set speee.css --allow-local-files
 
 だからかなりコントリビュートしやすくなっているはず。なるべくそこは維持していきたい。
 
-# 関連ドキュメント(Speee社内向け)
-
-- [Speee*VI*レギュレーション.pdf (コーポレートカラー仕様)](https://drive.google.com/file/d/1m5VzUtWX6JbortXmylHLABrN_RxamyXx/view?usp=sharing)
-- [【テンプレ配布】パワポ職人が本気で G スライドのマスタを作ったから見てくれ \| speee Kibela](https://speee.kibe.la/@masayuki_nagayama/22064)
-
 # ライセンスについて
 
-本リポジトリに含まれるリソースは Speee 企業ロゴを除いて[ライセンス](./LICENSE)に属します。
-ただし Speee 企業ロゴのみは株式会社 Speee が独占的な権利を保持するため、
-Speee 社員が株式会社 Speee の企業活動の一部として資料を作成する場合以外でロゴを使用したい場合は弊社までお問い合わせください。
+本リポジトリに含まれるリソースは[ライセンス](./LICENSE)に属します。
+
