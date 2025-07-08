@@ -25,24 +25,6 @@ $color-inverted-highlight: #81d4fa;
   --color-highlight: #{$highlight};
 }
 
-/* ----- レイアウト ----- */
-.flex{
-  display: flex;
-  gap: 1em;
-}
-.sa {
-  justify-content: space-around;
-}
-.sb {
-  justify-content: space-between;
-}
-.sa div,.sb div{
-  margin: 0.1em;
-}
-.fw div{
-  flex: var(--fw);
-}/* ---------- */
-
 svg[data-marp-fitting="svg"] {
   max-height: 580px; // Slide height - padding * 2
 }
