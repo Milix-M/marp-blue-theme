@@ -193,7 +193,6 @@ section:not(.lead):before {
 }
 
 section {
-  background-image: url("https://github.com/speee/marp-speee-theme/raw/main/marp-themes/Speee_VI_yokogumi.png");
   background-repeat: no-repeat;
   background-position: 3% 97%;
   background-size: 9% auto, 100% 100%;
@@ -275,7 +274,7 @@ section {
 
   &.lead {
     @include color-scheme($color-dark, $color-light, $color-inverted-highlight);
-    background-image: url("https://raw.githubusercontent.com/speee/marp-speee-theme/main/marp-themes/Speee_VI_yokogumi_white.png"),
+    background-image: url(""),
       linear-gradient(115deg, #080058, #008bcd);
 
     display: flex;

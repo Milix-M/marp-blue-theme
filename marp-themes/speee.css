@@ -188,7 +188,7 @@ section {
   --color-background: white;
   --color-background-stripe: rgba(0, 57, 129, 0.1);
   --color-foreground: #003981;
-  --color-dimmed: #33619a;
+  --color-dimmed: rgb(51, 96.6, 154.2);
   --color-highlight: #0288d1;
 }
 section::after {
@@ -242,8 +242,9 @@ section.lead {
   --color-background: #003981;
   --color-background-stripe: rgba(255, 255, 255, 0.1);
   --color-foreground: white;
-  --color-dimmed: #ccd7e6;
+  --color-dimmed: rgb(204, 215.4, 229.8);
   --color-highlight: #81d4fa;
+  background-image: url(""), linear-gradient(115deg, #080058, #008bcd);
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
