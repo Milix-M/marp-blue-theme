@@ -1,5 +1,4 @@
 ---
-# color reference: https://drive.google.com/file/d/1m5VzUtWX6JbortXmylHLABrN_RxamyXx/view?usp=sharing
 marp: true
 paginate: true
 theme: speee
