@@ -1,4 +1,4 @@
-# marp-blue-theme [![exampleの出力結果画像が最新かどうかのテスト](https://github.com/speee/marp-speee-theme/actions/workflows/test.yml/badge.svg)](https://github.com/speee/marp-speee-theme/actions/workflows/test.yml)
+# marp-blue-theme
 
 青を基調としたmarp テーマ
 
@@ -12,7 +12,7 @@
 
 ## VS Codeの場合
 
-1. [【VS Code \+ Marp】Markdownから爆速・自由自在なデザインで、プレゼンスライドを作る \- Qiita](https://qiita.com/tomo_makes/items/aafae4021986553ae1d8#%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%A0%E3%83%86%E3%83%BC%E3%83%9E%E3%82%92%E4%BD%BF%E3%81%86)を参考にVS Codeの設定へ `https://raw.githubusercontent.com/Milix-M/marp-blue-theme/refs/heads/main/marp-themes/speee.css` を設定
+1. [【VS Code \+ Marp】Markdownから爆速・自由自在なデザインで、プレゼンスライドを作る \- Qiita](https://qiita.com/tomo_makes/items/aafae4021986553ae1d8#%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%A0%E3%83%86%E3%83%BC%E3%83%9E%E3%82%92%E4%BD%BF%E3%81%86)を参考にVS Codeの設定へ `https://raw.githubusercontent.com/Milix-M/marp-blue-theme/refs/heads/main/marp-themes/blue.css` を設定
 2. [example.md](example/example.md) をコピーまたは参考にしてmarkdownファイルを作成する
 
 ## Marp CLIの場合
@@ -20,8 +20,8 @@
 ローカルにテーマファイルをダウンロードして使用する。
 
 ```bash
-curl -o speee.css https://raw.githubusercontent.com/Milix-M/marp-blue-theme/refs/heads/main/marp-themes/speee.css
-marp example.md -o example.pptx --theme-set speee.css --allow-local-files
+curl -o blue.css https://raw.githubusercontent.com/Milix-M/marp-blue-theme/refs/heads/main/marp-themes/blue.css
+marp example.md -o example.pptx --theme-set blue.css --allow-local-files
 ```
 
 # 開発方法

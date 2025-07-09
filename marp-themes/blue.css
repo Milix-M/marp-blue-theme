@@ -1,9 +1,9 @@
 @charset "UTF-8";
 /*!
- * Marp / Marpit Speee theme.
+ * Marp / Marpit blue theme.
  * (based on gaia theme https://github.com/marp-team/marp-core/blob/3ae79e06953bb4baf26ded4c9e1c5154169d70a4/themes/gaia.scss )
  *
- * @theme speee
+ * @theme blue
  * @auto-scaling true
  * @size 16:9 1280px 720px
  * @size 4:3 960px 720px
@@ -290,4 +290,4 @@ section.lead table {
   margin-right: auto;
 }
 
-/*# sourceMappingURL=speee.css.map */
+/*# sourceMappingURL=blue.css.map */
