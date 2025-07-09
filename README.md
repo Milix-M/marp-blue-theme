@@ -1,4 +1,4 @@
-# marp-blue-theme [![exampleの出力結果画像が最新かどうかのテスト](https://github.com/speee/marp-speee-theme/actions/workflows/test.yml/badge.svg)](https://github.com/speee/marp-speee-theme/actions/workflows/test.yml)
+# marp-blue-theme
 
 青を基調としたmarp テーマ
 
