@@ -1,5 +1,5 @@
-CSS_PATH      = ./marp-themes/speee.css
-SCSS_PATH     = ./marp-themes/speee.scss
+CSS_PATH      = ./marp-themes/blue.css
+SCSS_PATH     = ./marp-themes/blue.scss
 SRC_PATH      = ./example/example.md
 DST_BASE_PATH = ./example/example.png
 DST_PATH      = ./example/example.001.png ./example/example.002.png ./example/example.003.png ./example/example.004.png

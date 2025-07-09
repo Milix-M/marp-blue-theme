@@ -1,7 +1,7 @@
 ---
 marp: true
 paginate: true
-theme: speee
+theme: blue
 ---
 
 <!--
