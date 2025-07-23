@@ -8,6 +8,8 @@
  * @size 4:3 960px 720px
  */
 
+@use 'sass:color';
+
 $color-light: white; // 病院的な白になるのでgghostwhiteのようにずらすか暖色系の白にしたほうが良さそう
 $color-dark: #003981; // 濃い方のコーポレートカラー
 $color-lighter-dark: #005ea5; // 薄い方のコーポレートカラー
@@ -21,7 +23,7 @@ $color-inverted-highlight: #81d4fa;
   --color-background: #{$bg};
   --color-background-stripe: #{rgba($text, 0.1)};
   --color-foreground: #{$text};
-  --color-dimmed: #{mix($text, $bg, 80%)};
+  --color-dimmed: #{color.mix($text, $bg, 80%)};
   --color-highlight: #{$highlight};
 }
 
@@ -198,7 +200,7 @@ section {
   background-size: 9% auto, 100% 100%;
   background-color: var(--color-background);
   color: var(--color-foreground);
-  font-size: 35px;
+  font-size: 33px;
   font-family: "Lato", "Noto Sans JP", sans-serif;
   height: 720px;
   line-height: 1.35;
